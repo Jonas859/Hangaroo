@@ -38,7 +38,7 @@
       
     };
     
-    let currentCategory = 'expert';
+    let currentCategory = 'easy';
     let currentQuestionIndex = 0;
     let currentQuestion = words[currentCategory][currentQuestionIndex];
     let incorrectGuesses = 0;
