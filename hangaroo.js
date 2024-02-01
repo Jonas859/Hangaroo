@@ -193,7 +193,7 @@
       }
     
       if (wordDisplayElement.textContent === currentQuestion.answer) {
-        score += 100;
+        score += 10;
         pointsElement.textContent = score;
         nextQuestion();
       }
